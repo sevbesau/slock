@@ -12,21 +12,21 @@ static const char *colorname[NUMCOLS] = {
 static const int failonclear = 1;
 
 /* default message */
-static const char * message = "Suckless: Software that sucks less.";
+static const char * message = "";
 
 /* text color */
-static const char * text_color = "#ffffff";
+static const char * text_color = "#a1efe4";
 
 /* text size (must be a valid size) */
-static const char * font_name = "lucidasans-14";
+static const char * font_name = "lucidasanstypewriter-bold-24";
 
 /* time in seconds before the monitor shuts down */
-static const int monitortime = 5;
+static const int monitortime = 60;
 
 /*Enable blur*/
 #define BLUR
 /*Set blur radius*/
-static const int blurRadius=5;
+static const int blurRadius=10;
 /*Enable Pixelation*/
 //#define PIXELATION
 /*Set pixelation radius*/
