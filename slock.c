@@ -34,14 +34,7 @@ enum {
 	INIT,
 	INPUT,
 	FAILED,
-	BLOCKS,
-	BG,
 	NUMCOLS
-};
-
-enum {
-	BAR_TOP,
-	BAR_BOTTOM,
 };
 
 struct lock {
@@ -116,8 +109,8 @@ draw_key_magic(Display *dpy, struct lock **locks, int screen, unsigned int color
 	int green = ((float)rgb->green/65535) * 255;
 	int blue = ((float)rgb->blue/65535) * 255;
 
-	printf("red: %d, green: %d, blue:%d\t", rgb->red, rgb->green, rgb->blue);
-	printf("red: %d, green: %d, blue:%d\n", red, green, blue);
+	//printf("red: %d, green: %d, blue:%d\t", rgb->red, rgb->green, rgb->blue);
+	//printf("red: %d, green: %d, blue:%d\n", red, green, blue);
 	locks[screen]->bgmap = XCreatePixmap(dpy, locks[screen]->root, DisplayWidth(dpy, locks[screen]->screen), DisplayHeight(dpy, locks[screen]->screen), DefaultDepth(dpy, locks[screen]->screen));
 
 	// create the context
