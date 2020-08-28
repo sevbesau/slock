@@ -7,13 +7,19 @@ Requirements
 ------------
 In order to build slock you need the Xlib header files.
 
-
-Installation
-------------
+Configuration
+-------------
 Edit config.mk to match your local setup (slock is installed into
 the /usr/local namespace by default).
 
-Afterwards enter the following command to build and install slock
+icon_path must be a full path that points to a png.
+An example icon.png is provided.
+
+[Example1](img/example1.png)
+
+Installation
+------------
+Enter the following command to build and install slock
 (if necessary as root):
 
     make clean install
