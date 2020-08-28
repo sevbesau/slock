@@ -13,9 +13,11 @@ Edit config.mk to match your local setup (slock is installed into
 the /usr/local namespace by default).
 
 icon_path must be a full path that points to a png.
-An example icon.png is provided.
+An example [icon](icon.png) is provided.
 
-[Example1](img/example1.png)
+![Example1](img/example1.png)
+![Example2](img/example2.png)
+![Example3](img/example3.png)
 
 Installation
 ------------
