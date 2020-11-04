@@ -12,7 +12,7 @@ static const char *colorname[NUMCOLS] = {
 static const int failonclear = 1;
 
 /* time in seconds before the monitor shuts down */
-static const int monitortime = 5;
+static const int monitortime = 60;
 
 // Icon to draw in the center
 static const char * icon_path = "/home/sepseel/images/icon.png";
