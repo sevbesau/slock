@@ -44,7 +44,7 @@ dist: clean
 install: all
 	@echo installing executable file to ${DESTDIR}${PREFIX}/bin
 	@mkdir -p ${DESTDIR}${PREFIX}/bin
-	@cp -f slock ${DESTDIR}${PREFIX}/bin
+	@cp -f slock ${DESTDIR}${PREFIX}/bin/slock
 	@chmod 755 ${DESTDIR}${PREFIX}/bin/slock
 	@chmod u+s ${DESTDIR}${PREFIX}/bin/slock
 	@echo installing manual page to ${DESTDIR}${MANPREFIX}/man1
